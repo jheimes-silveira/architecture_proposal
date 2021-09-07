@@ -20,10 +20,10 @@ Cada modulo contem seu próprio ecossistema de arquitetura e a proposta adotada 
 Veja a documentação sobre CLEAN [aqui](./CLEAN_ARCHITECTURE.md)
 
 
-## Propostas estrutural
-Seguindo o conceito de multirepo, ou seja, cada projeto ficara em um repositorio diferente, assim facilitando a manutenção por modulos separados.
+## Proposta estrutural
+Seguindo o conceito de monorepo, ou seja, cada projeto ficara em um repositorio diferente, assim facilitando a manutenção por modulos separados.
 
- - [MULTIREPO](./MULTIREPO.md)
+ - [MONOREPO](./MONOREPO.md)
 
 # Pull Requests
 Veja a documentação sobre Pull Request [aqui](./PULL_REQUESTS.md)

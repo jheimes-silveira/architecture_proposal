@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dependencies/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dependencies/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

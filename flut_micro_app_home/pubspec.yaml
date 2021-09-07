@@ -1,0 +1,23 @@
+name: flut_micro_app_home
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flut_micro_commons_dependencies:
+    path: '../flut_micro_commons_dependencies'
+  flut_micro_commons_shared:
+    path: '../flut_micro_commons_shared'
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/lang/

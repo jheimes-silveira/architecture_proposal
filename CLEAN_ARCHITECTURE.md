@@ -4,12 +4,6 @@ Utilizamos como base arquitetural o clean, por ser muito bom de aplicar diversos
 
 A proposta adotada foi a do clean Dart/Flutter
 
-## Videos auxiliar 
-
-Abaixo há uma trilha de estudos que explica melhor o uso do modelo arquitetural
-
-- [Clean Architecture Flutterando](https://www.youtube.com/playlist?list=PLlBnICoI-g-d-v_fWlkZX2HRgHHPnJx9s)
-
 # Início
 
 Podemos dizer que uma arquitetura limpa pode definir o futuro do seu projeto, sabendo disso, devemos tê-la como objeto de estudo constante para que assim saibamos onde, quando e como aplicá-la. 
@@ -145,10 +139,20 @@ Um exemplo disso é a utilização do Firebase, o package do Firebase te retorna
 
 Sendo assim não caia na tentação de chamar o **Repository** direto do **Controller** ou mesmo plugar o Firebase direto na sua **View**, além de infringir as regras da arquitetura, você irá se arrepender em um futuro próximo.
 
+## Para auxiliar na criação de toda a estrutura clean
+
+Foi desenvolvido a CLI [js_cli](https://pub.dev/packages/js_cli) que auxilia na criação da estrutura em clean, onde temos um templete base no projeto modelo.
+
 Estamos abertos a sugestões e melhorias na documentação!
 Faça isso por meio das [issues](), nossa equipe ficará muito contente com seu interesse em evoluir o nosso padrão.
 
 Sinta-se a vontade para abrir um **PR** com correções na documentação dessa proposta.
+
+## Videos auxiliar 
+
+Abaixo há uma trilha de estudos que explica melhor o uso do modelo arquitetural
+
+- [Clean Architecture Flutterando](https://www.youtube.com/playlist?list=PLlBnICoI-g-d-v_fWlkZX2HRgHHPnJx9s)
 
 # Links úteis
 

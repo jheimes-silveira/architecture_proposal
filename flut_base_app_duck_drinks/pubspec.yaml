@@ -1,0 +1,22 @@
+name: flut_base_app_duck_drinks
+description: Duck Drinks
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flut_micro_core:
+    path: '../flut_micro_core'
+  flut_micro_commons_dependencies:
+    path: '../flut_micro_commons_dependencies'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
