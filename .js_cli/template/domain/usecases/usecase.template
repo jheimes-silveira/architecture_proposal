@@ -1,0 +1,17 @@
+import 'package:flutter_modular/flutter_modular.dart';
+import '{{usecaseNameFileInterface.snakeCase}}.dart';
+
+final ${{usecaseNameClass.pascalCase}} = BindInject(
+  (i) => {{usecaseNameClass.pascalCase}}(),
+  isSingleton: true,
+  isLazy: true,
+);
+
+class {{usecaseNameClass.pascalCase}} implements {{usecaseNameClassInterface.pascalCase}} {
+  @override
+  Future<void> call() {
+    // TODO: implement call
+    throw UnimplementedError();
+  }
+}
+  

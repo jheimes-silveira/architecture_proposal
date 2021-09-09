@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:localization/localization.dart';
 
 class DiscountBanner extends StatelessWidget {
   const DiscountBanner({
@@ -22,9 +23,9 @@ class DiscountBanner extends StatelessWidget {
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "A Summer Surpise\n"),
+            TextSpan(text: 'home-announcement-1-title'.i18n()+'\n'),
             TextSpan(
-              text: "Cashback 20%",
+              text: 'home-announcement-1-subTitle'.i18n(),
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

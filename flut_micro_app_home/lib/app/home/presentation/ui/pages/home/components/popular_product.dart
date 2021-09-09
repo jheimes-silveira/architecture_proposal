@@ -1,6 +1,8 @@
-import 'package:flut_micro_app_home/app/home/domain/models/Product.dart';
+import 'package:flut_micro_app_home/app/home/domain/models/product.dart';
 import 'package:flut_micro_app_home/app/home/presentation/ui/pages/home/components/product_card.dart';
 import 'package:flutter/material.dart';
+import 'package:localization/localization.dart';
+
 import 'section_title.dart';
 
 class PopularProducts extends StatelessWidget {
@@ -9,9 +11,13 @@ class PopularProducts extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20),
+          padding: EdgeInsets.only(
+            right: 24,
+            left: 24,
+            top: 24,
+          ),
           child: SectionTitle(
-            title: "Popular Products",
+            title: 'home-popularProducts-title'.i18n(),
             press: () {},
           ),
         ),
@@ -23,11 +29,9 @@ class PopularProducts extends StatelessWidget {
               ...List.generate(
                 demoProducts.length,
                 (index) {
-                  if (demoProducts[index].isPopular) {
-                    return ProductCard(product: demoProducts[index]);
-                  }
-
-                  return SizedBox.shrink();
+                  return ProductCard(
+                    product: demoProducts[index],
+                  );
                 },
               ),
               SizedBox(width: 20),

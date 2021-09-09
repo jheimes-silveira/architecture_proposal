@@ -66,15 +66,15 @@ class SpecialOfferCard extends StatelessWidget {
       child: GestureDetector(
         onTap: press,
         child: SizedBox(
-          width: (242),
           height: (100),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
             child: Stack(
               children: [
-                Image(
-                  image: AssetImage(image),
-                  fit: BoxFit.cover,
+                Image.asset(
+                  image,
+                  package: 'flut_micro_app_home',
+                  fit: BoxFit.fill,
                 ),
                 Container(
                   decoration: BoxDecoration(

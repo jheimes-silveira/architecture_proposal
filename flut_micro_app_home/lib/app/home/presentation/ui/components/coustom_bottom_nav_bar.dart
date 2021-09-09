@@ -1,7 +1,7 @@
+import 'package:flut_micro_app_home/app/home/domain/enums/menu_state.dart';
 import 'package:flutter/material.dart';
 
-import '../../constants.dart';
-import '../../enums.dart';
+import '../../../../constants.dart';
 
 class CustomBottomNavBar extends StatelessWidget {
   const CustomBottomNavBar({
@@ -40,9 +40,7 @@ class CustomBottomNavBar extends StatelessWidget {
                 color: MenuState.home == selectedMenu
                     ? kPrimaryColor
                     : inActiveIconColor,
-                onPressed: () {
-                  // Navigator.pushNamed(context, HomeScreen.routeName)TODO
-                },
+                onPressed: () {},
               ),
               IconButton(
                 icon: Icon(Icons.favorite),
@@ -63,9 +61,7 @@ class CustomBottomNavBar extends StatelessWidget {
                 color: MenuState.profile == selectedMenu
                     ? kPrimaryColor
                     : inActiveIconColor,
-                onPressed: () {
-                  // Navigator.pushNamed(context, ProfileScreen.routeName)TODO
-                },
+                onPressed: () {},
               ),
             ],
           )),

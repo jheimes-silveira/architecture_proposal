@@ -1,0 +1,12 @@
+[
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "import 'package:flutter_modular/flutter_modular.dart';",
+        "to": "import 'package:flutter_modular/flutter_modular.dart';\nimport '{{repositoryPath}}/{{repositoryNameFile}}.dart';"
+    },
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "//Repositories",
+        "to": "//Repositories\n\t\t${{repositoryNameClass}},"
+    }
+]

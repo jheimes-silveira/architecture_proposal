@@ -13,7 +13,10 @@ class _SplashPageState extends ModularState<SplashPage, SplashController> {
 
   @override
   void initState() {
-    // Future.delayed(Duration(milliseconds: 1500)).then((value) => );
+    Future.delayed(Duration(milliseconds: 1500)).then(
+      (value) => Modular.to.navigate('/home'),
+    );
+
     super.initState();
   }
 
@@ -21,8 +24,15 @@ class _SplashPageState extends ModularState<SplashPage, SplashController> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      appBar: AppBar(title: Text('Splash')),
-      body: Container(),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(56),
+          child: Image.asset(
+            'assets/images/logo_splash.png',
+            package: 'flut_micro_core',
+          ),
+        ),
+      ),
     );
   }
 }

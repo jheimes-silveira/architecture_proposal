@@ -1,0 +1,7 @@
+[
+    {
+        "pathFile": "{{path}}\\{{module}}_module",
+        "pathTemplete": ".js_cli/template/layer/complete_new_file_exemple.template",
+        "generate": true
+    }
+]

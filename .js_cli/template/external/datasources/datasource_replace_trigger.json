@@ -1,0 +1,12 @@
+[
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "import 'package:flutter_modular/flutter_modular.dart';",
+        "to": "import 'package:flutter_modular/flutter_modular.dart';\nimport '{{datasourcePath}}/{{datasourceNameFile}}.dart';"
+    },
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "//Datasources",
+        "to": "//Datasources\n\t\t${{datasourceNameClass}},"
+    }
+]

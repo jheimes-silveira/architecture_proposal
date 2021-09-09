@@ -1,0 +1,17 @@
+[
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "import 'package:flutter_modular/flutter_modular.dart';",
+        "to": "import 'package:flutter_modular/flutter_modular.dart';\nimport '{{pagePath}}/{{pageNameFile}}.dart';"
+    },
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "//Pages",
+        "to": "//Pages\n\t\tChildRoute(\n\t\t\t'/{{name.paramCase}}',\n\t\t\tchild: (_, args) => {{pageNameClass}}(),\n\t\t),"
+    },
+    {
+        "pathFile": "lib\\app\\core\\utils\\routers.dart",
+        "from": "//{{module.titleCase}}",
+        "to": "//{{module.titleCase}}\n\tstatic goTo{{name.pascalCase}}() {\n\t\treturn Modular.to.pushNamed('/{{module}}/{{name.paramCase}}');\n\t}"
+    }
+]

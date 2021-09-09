@@ -3,6 +3,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 import 'presentation/controllers/app_controller.dart';
 import 'presentation/ui/pages/splash/splash_controller.dart';
+import 'presentation/ui/pages/splash/splash_page.dart';
 
 class AppModule extends Module {
   @override
@@ -13,18 +14,10 @@ class AppModule extends Module {
 
   @override
   final List<ModularRoute> routes = [
-    // ChildRoute('/', child: (_, __) => SplashPage()),
+    ChildRoute('/', child: (_, __) => SplashPage()),
     ModuleRoute(
-     '/',
+     '/home',
       module: HomeModule(),
     ),
-    // ModuleRoute(
-    //   '/onboarding',
-    //   module: OnboardingModule(),
-    // ),
-    // ModuleRoute(
-    //   '/register-shop',
-    //   module: RegisterShopModule(),
-    // ),
   ];
 }

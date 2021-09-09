@@ -1,0 +1,12 @@
+[
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "import 'package:flutter_modular/flutter_modular.dart';",
+        "to": "import 'package:flutter_modular/flutter_modular.dart';\nimport '{{usecasePath}}/{{usecaseNameFile}}.dart';"
+    },
+    {
+        "pathFile": "{{path}}\\{{module}}_module.dart",
+        "from": "//Usercases",
+        "to": "//Usercases\n\t\t${{usecaseNameClass}},"
+    }
+]

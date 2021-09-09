@@ -5,13 +5,39 @@ ThemeData theme() {
     scaffoldBackgroundColor: Colors.white,
     fontFamily: "Muli",
     appBarTheme: appBarTheme(),
-    textTheme: textTheme(),
+    textTheme: _buildTextTheme(),
     inputDecorationTheme: inputDecorationTheme(),
     visualDensity: VisualDensity.adaptivePlatformDensity,
   );
 }
 
 final kTextColor = Color(0xFF757575);
+
+TextTheme _buildTextTheme() {
+  return TextTheme(
+    bodyText1: TextStyle(color: kTextColor),
+    bodyText2: TextStyle(color: kTextColor),
+    subtitle1: TextStyle(
+      fontSize: 16.0,
+      letterSpacing: 0.15,
+    ),
+    headline2: TextStyle(
+      fontSize: 24.0,
+      fontWeight: FontWeight.bold,
+      letterSpacing: 0.15,
+    ),
+    headline3: TextStyle(
+      fontSize: 20.0,
+      letterSpacing: 0.15,
+      fontWeight: FontWeight.w400,
+    ),
+    headline4: TextStyle(
+      fontSize: 16.0,
+      letterSpacing: 0.15,
+      fontWeight: FontWeight.w400,
+    ),
+  );
+}
 
 InputDecorationTheme inputDecorationTheme() {
   OutlineInputBorder outlineInputBorder = OutlineInputBorder(
@@ -28,13 +54,6 @@ InputDecorationTheme inputDecorationTheme() {
     enabledBorder: outlineInputBorder,
     focusedBorder: outlineInputBorder,
     border: outlineInputBorder,
-  );
-}
-
-TextTheme textTheme() {
-  return TextTheme(
-    bodyText1: TextStyle(color: kTextColor),
-    bodyText2: TextStyle(color: kTextColor),
   );
 }
 

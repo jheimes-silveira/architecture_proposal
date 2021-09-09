@@ -23,4 +23,5 @@ dev_dependencies:
 
 flutter:
   assets:
+    - assets/images/
     - packages/flut_micro_app_home/assets/lang/

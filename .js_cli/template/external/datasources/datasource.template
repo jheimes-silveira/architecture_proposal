@@ -1,0 +1,18 @@
+import 'package:flutter_modular/flutter_modular.dart';
+import '../../{{datasourcePathInterface}}/{{datasourceNameFileInterface.snakeCase}}.dart';
+
+final ${{datasourceNameClass.pascalCase}} = BindInject(
+  (i) => {{datasourceNameClass.pascalCase}}(),
+  isSingleton: true,
+  isLazy: true,
+);
+
+class {{datasourceNameClass.pascalCase}} implements {{datasourceNameClassInterface.pascalCase}} {
+  @override
+  Future<void> call() {
+    // TODO: implement call
+    throw UnimplementedError();
+  }
+}
+  
+  

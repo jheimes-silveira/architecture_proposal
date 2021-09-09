@@ -1,8 +1,8 @@
-import 'package:flut_micro_app_home/app/commons/components/coustom_bottom_nav_bar.dart';
+import 'package:flut_micro_app_home/app/home/presentation/ui/components/coustom_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import '../../../../../enums.dart';
+import '../../../../domain/enums/menu_state.dart';
 import '../../../../../size_config.dart';
 import 'components/discount_banner.dart';
 import 'components/home_header.dart';
