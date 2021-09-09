@@ -6,6 +6,13 @@ import 'package:localization/localization.dart';
 import 'section_title.dart';
 
 class PopularProducts extends StatelessWidget {
+  final List<Product> products;
+
+  const PopularProducts({
+    Key? key,
+    required this.products,
+  }) : super(key: key);
+  
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -27,10 +34,10 @@ class PopularProducts extends StatelessWidget {
           child: Row(
             children: [
               ...List.generate(
-                demoProducts.length,
+                products.length,
                 (index) {
                   return ProductCard(
-                    product: demoProducts[index],
+                    product: products[index],
                   );
                 },
               ),

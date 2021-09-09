@@ -1,4 +1,4 @@
-import 'package:flut_micro_app_home/app/home/domain/enums/menu_state.dart';
+import 'package:flut_micro_app_home/app/home/domain/models/enums/menu_state.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../constants.dart';

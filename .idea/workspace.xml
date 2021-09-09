@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="">
+    <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="configurando modulo home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/home_module.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/home_module.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/config/lang/pt_BR.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -40,6 +36,37 @@
       <option name="presentableId" value="Default" />
       <updated>1630580202189</updated>
     </task>
+    <task id="LOCAL-00001" summary="criando home">
+      <created>1631149960286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631149960286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="configurando modulo home">
+      <created>1631155787835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631155787835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criando home" />
+    <MESSAGE value="configurando modulo home" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurando modulo home" />
   </component>
 </project>

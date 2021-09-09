@@ -1,8 +1,9 @@
+import 'package:flut_micro_app_home/app/home/domain/models/enums/menu_state.dart';
 import 'package:flut_micro_app_home/app/home/presentation/ui/components/coustom_bottom_nav_bar.dart';
+import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-
-import '../../../../domain/enums/menu_state.dart';
+export 'package:flutter_mobx/flutter_mobx.dart';
 import '../../../../../size_config.dart';
 import 'components/discount_banner.dart';
 import 'components/home_header.dart';
@@ -22,7 +23,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
   void didChangeDependencies() {
     super.didChangeDependencies();
 
-    SizeConfig().init(context);
+    controller.popularProductsUsecase();
   }
 
   @override
@@ -35,7 +36,13 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
               HomeHeader(),
               DiscountBanner(),
               SpecialOffers(),
-              PopularProducts(),
+              Observer(
+                builder: (_) {
+                  return PopularProducts(
+                    products: controller.products,
+                  );
+                },
+              ),
             ],
           ),
         ),

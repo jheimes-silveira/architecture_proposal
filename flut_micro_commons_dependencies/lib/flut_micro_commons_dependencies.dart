@@ -7,3 +7,4 @@ export 'package:asuka/asuka.dart';
 export 'package:flutter_svg/svg.dart';
 export 'package:unicons/unicons.dart';
 export 'package:localization/localization.dart';
+export 'package:flutter_mobx/flutter_mobx.dart';
