@@ -17,6 +17,5 @@ abstract class _AppControllerBase with Store {
       'packages/flut_micro_app_home/assets/lang',
     ]);
     await Localization.configuration(defaultLang: 'pt_BR');
-    print('sentences ${Localization.sentences}');
   }
 }

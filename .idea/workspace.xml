@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/home_module.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/home_module.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/config/lang/pt_BR.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +41,5 @@
       <updated>1630580202189</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1058" y="251" key="FileChooserDialogImpl" timestamp="1630580575316">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="1058" y="251" key="FileChooserDialogImpl/-1920.0.1536.816/1920.0.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1630580575316" />
-    <state x="853" y="193" key="new project wizard" timestamp="1630580691138">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="853" y="193" key="new project wizard/-1920.0.1536.816/1920.0.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1630580691138" />
   </component>
 </project>

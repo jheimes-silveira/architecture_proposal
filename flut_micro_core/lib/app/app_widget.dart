@@ -1,4 +1,5 @@
 import 'package:flut_micro_core/app/presentation/controllers/app_controller.dart';
+import 'package:flut_micro_core/app/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -24,19 +25,7 @@ class _AppWidgetState extends ModularState<AppWidget, AppController> {
     return MaterialApp(
       title: 'Flutter Slidy',
       initialRoute: widget.initialRoute,
-      theme: ThemeData(
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            textStyle: TextStyle(),
-          ),
-        ),
-        textTheme: _buildTextTheme(),
-        appBarTheme: AppBarTheme(
-          iconTheme: IconThemeData(
-            color: Colors.white,
-          ),
-        ),
-      ),
+      theme: theme(),
     ).modular();
   }
 
