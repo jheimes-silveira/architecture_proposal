@@ -17,22 +17,22 @@ A Versão do flutter que é utilizada neste projeto foi a 2.12.1
 A arquitetura do projeto é dividia de forma modular subdividido em micro apps, onde tem o menor índice de acoplamento possível.
 
 Cada modulo contem seu próprio ecossistema de arquitetura e a proposta adotada foi a do clean dart.
-Veja a documentação sobre CLEAN [aqui](./CLEAN_ARCHITECTURE.md)
+Veja a documentação sobre CLEAN [aqui](./doc/CLEAN_ARCHITECTURE.md)
 
 
 ## Proposta estrutural
 Seguindo o conceito de monorepo, ou seja, cada projeto ficara em um repositorio diferente, assim facilitando a manutenção por modulos separados.
 
- - [MONOREPO](./MONOREPO.md)
+ - [MONOREPO](./doc/MONOREPO.md)
 
 # Pull Requests
-Veja a documentação sobre Pull Request [aqui](./PULL_REQUESTS.md)
+Veja a documentação sobre Pull Request [aqui](./doc/PULL_REQUESTS.md)
 
 # Git Flow
-Veja a documentação sobre Git Flow [aqui](./GIT_FLOW.md)
+Veja a documentação sobre Git Flow [aqui](./doc/GIT_FLOW.md)
 
 # Testes
-Veja a documentação sobre Testes [aqui](./TESTES.md)
+Veja a documentação sobre Testes [aqui](./doc/TESTES.md)
 
 ## Recursos de terceiros
 
@@ -50,10 +50,10 @@ Antes de adicionar um recursos que não esteja na lista abaixo, observar os segu
 Para garantir que as boas práticas de desenvolvimento seguindo a [guia oficial do Dart](https://dart.dev/guides/language/effective-dart) utilizamos o package [Effective Dart](https://pub.dev/packages/effective_dart) 
 Isso ira gerar Avisos de linhas que não  condiz com as boas praticas do Flutter e com um [link](https://dart-lang.github.io/linter/lints/prefer_relative_imports.html) para a documentação oficial do Dart explicando como corrigi-lo
 
-![Warning com o problema de boa prática](img/effective_dart_link.png)
+![Warning com o problema de boa prática](doc/img/effective_dart_link.png)
 
 
-![Documentação oficial do Effective Dart](img/effective_dart_solucao.png)
+![Documentação oficial do Effective Dart](doc/img/effective_dart_solucao.png)
 
 # Dicas
 

@@ -3,13 +3,14 @@ import 'package:flut_micro_app_home/app/home/presentation/ui/components/coustom_
 import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-export 'package:flutter_mobx/flutter_mobx.dart';
-import '../../../../../size_config.dart';
+
 import 'components/discount_banner.dart';
 import 'components/home_header.dart';
 import 'components/popular_product.dart';
 import 'components/special_offers.dart';
 import 'home_controller.dart';
+
+export 'package:flutter_mobx/flutter_mobx.dart';
 
 class HomePage extends StatefulWidget {
   @override

@@ -34,7 +34,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "br.com.jheimesilveira.duck_drinks.flut_base_app_duck_drinks"
+        applicationId "br.com.jheimesilveira.duck_drinks.client"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()

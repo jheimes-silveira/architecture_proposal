@@ -5,13 +5,52 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flut_base_app_duck_drinks",
+            "name": "Duck Drinks",
             "cwd": "flut_base_app_duck_drinks",
             "request": "launch",
             "type": "dart",
             "args": [
-                "flut_base_app_duck_drinks/lib/main.dart"
+                "lib/main.dart"
             ]
-        }
+        },
+        {
+            "name": "Duck Drinks flavor prd",
+            "cwd": "flut_base_app_duck_drinks_with_flavors",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "prd",
+                "-t",
+                "lib/main-prd.dart"
+            ],
+            "program": "lib/main-prd.dart"
+        },
+        {
+            "name": "Duck Drinks flavor dev",
+            "cwd": "flut_base_app_duck_drinks_with_flavors",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "-t",
+                "lib/main-dev.dart"
+            ],
+            "program": "lib/main-dev.dart"
+        },
+        {
+            "name": "Duck Drinks flavor qa",
+            "cwd": "flut_base_app_duck_drinks_with_flavors",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "qa",
+                "-t",
+                "lib/main-qa.dart"
+            ],
+            "program": "lib/main-qa.dart"
+        },
     ]
 }

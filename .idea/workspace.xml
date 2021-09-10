@@ -4,8 +4,32 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="configurando modulo home">
+    <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="implementando serviço de buscar produtos populares">
+      <change beforePath="$PROJECT_DIR$/.idea/architecture_proposal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/architecture_proposal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLEAN_ARCHITECTURE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GIT_FLOW.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MONOREPO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PULL_REQUESTS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/main/kotlin/br/com/jheimesilveira/duck_drinks/flut_base_app_duck_drinks/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/size_config.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flut_micro_commons_shared.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flut_micro_commons_shared.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/test/flut_micro_commons_shared_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/camadas_clean.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/effective_dart_link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/effective_dart_solucao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fluxo_multirepo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fluxo_padrao_clean.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hakles/flutter-monorepo-hakles" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631155787835</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implementando serviço de buscar produtos populares">
+      <created>1631194115648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631194115648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,10 +94,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criando home" />
     <MESSAGE value="configurando modulo home" />
-    <option name="LAST_COMMIT_MESSAGE" value="configurando modulo home" />
+    <MESSAGE value="implementando serviço de buscar produtos populares" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando serviço de buscar produtos populares" />
   </component>
 </project>

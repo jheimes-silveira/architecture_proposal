@@ -15,6 +15,8 @@
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/build" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/build" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
