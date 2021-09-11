@@ -1,4 +1,4 @@
-import 'package:flut_micro_app_home/app/home/domain/models/product.dart';
+import 'package:flut_micro_commons_shared/models/product.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import '../../data/datasources/popular_products_datasource.dart';
@@ -22,6 +22,7 @@ List<Product> demoProducts = [
     images: [
       'assets/images/produto_1.png',
     ],
+    rating: 2.5,
     title: 'Kit Mix Brasil & Espanha (4 garrafas)',
     price: 156.99,
     description: description,
@@ -31,6 +32,7 @@ List<Product> demoProducts = [
     images: [
       'assets/images/produto_2.png',
     ],
+    rating: 3.0,
     title: 'Kit Refrescantes Intercontinentais (6 garrafas)',
     price: 230.50,
     description: description,
@@ -40,6 +42,7 @@ List<Product> demoProducts = [
     images: [
       'assets/images/produto_3.png',
     ],
+    rating: 4.5,
     title: 'Kit Brancos Espanha & Argentina (2 garrafas)',
     price: 70.55,
     description: description,

@@ -34,18 +34,15 @@ class _AppWidgetState extends ModularState<AppWidget, AppController> {
               children: [
                 widget!,
                 Positioned(
-                  top: 60,
-                  right: 0,
-                  left: 0,
-                  child: Container(
-                    color: Colors.red.withOpacity(0.5),
-                    child: Text(
-                      F.title,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
+                  right: 56,
+                  bottom: 130,
+                  child: Text(
+                    F.name,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.grey.withOpacity(0.5),
+                      fontSize: 54,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),

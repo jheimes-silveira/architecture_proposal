@@ -20,6 +20,19 @@ class F {
     }
   }
 
+  static String get name {
+    switch (appFlavor) {
+      case Flavor.DEV:
+        return 'DEV';
+      case Flavor.QA:
+        return 'QA';
+      case Flavor.PRD:
+        return 'PRD';
+      default:
+        return '';
+    }
+  }
+
   static String get url {
     switch (appFlavor) {
       case Flavor.DEV:

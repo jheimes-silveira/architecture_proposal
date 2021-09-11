@@ -106,6 +106,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flut_micro_app_product:
+    dependency: "direct main"
+    description:
+      path: "../flut_micro_app_product"
+      relative: true
+    source: path
+    version: "0.0.1"
   flut_micro_commons_dependencies:
     dependency: "direct main"
     description:

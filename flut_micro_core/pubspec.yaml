@@ -16,6 +16,8 @@ dependencies:
     path: '../flut_micro_commons_shared'
   flut_micro_app_home:
     path: '../flut_micro_app_home'
+  flut_micro_app_product:
+    path: '../flut_micro_app_product'
     
 dev_dependencies:
   flutter_test:

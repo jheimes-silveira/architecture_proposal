@@ -1,4 +1,4 @@
-import 'package:flut_micro_app_home/app/home/domain/models/product.dart';
+import 'package:flut_micro_commons_shared/models/product.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../constants.dart';
@@ -37,7 +37,7 @@ class ProductCard extends StatelessWidget {
                     tag: product.id.toString(),
                     child: Image.asset(
                       product.images[0],
-                      package: 'flut_micro_app_home',
+                      package: 'flut_micro_commons_shared',
                     ),
                   ),
                 ),

@@ -1,9 +1,10 @@
-import 'package:flut_micro_app_home/app/home/domain/models/product.dart';
+import 'package:flut_micro_commons_shared/models/product.dart';
 import 'package:flutter/material.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({
     Key? key,
+    this.onTap,
     this.width = 180,
     this.aspectRetio = 1.02,
     required this.product,
@@ -11,6 +12,7 @@ class ProductCard extends StatelessWidget {
 
   final double width, aspectRetio;
   final Product product;
+  final GestureTapCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,7 @@ class ProductCard extends StatelessWidget {
       child: SizedBox(
         width: (width),
         child: GestureDetector(
-          onTap: () {},
+          onTap: onTap,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -34,7 +36,7 @@ class ProductCard extends StatelessWidget {
                     tag: product.id.toString(),
                     child: Image.asset(
                       product.images[0],
-                      package: 'flut_micro_app_home',
+                      package: 'flut_micro_commons_shared',
                     ),
                   ),
                 ),

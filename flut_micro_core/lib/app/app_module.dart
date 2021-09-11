@@ -1,4 +1,5 @@
 import 'package:flut_micro_app_home/app/home/home_module.dart';
+import 'package:flut_micro_app_product/app/product/product_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'presentation/controllers/app_controller.dart';
@@ -16,8 +17,12 @@ class AppModule extends Module {
   final List<ModularRoute> routes = [
     ChildRoute('/', child: (_, __) => SplashPage()),
     ModuleRoute(
-     '/home',
+      '/home',
       module: HomeModule(),
+    ),
+    ModuleRoute(
+      '/product',
+      module: ProductModule(),
     ),
   ];
 }

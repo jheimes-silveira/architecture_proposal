@@ -1,4 +1,4 @@
-import 'package:flut_micro_app_home/app/home/domain/models/product.dart';
+import 'package:flut_micro_commons_shared/models/product.dart';
 import 'package:flut_micro_app_home/app/home/domain/usecases/popular_products_usecase.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:mobx/mobx.dart';

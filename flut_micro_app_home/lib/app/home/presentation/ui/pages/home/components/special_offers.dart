@@ -73,7 +73,7 @@ class SpecialOfferCard extends StatelessWidget {
               children: [
                 Image.asset(
                   image,
-                  package: 'flut_micro_app_home',
+                  package: 'flut_micro_commons_shared',
                   fit: BoxFit.fill,
                 ),
                 Container(

@@ -1,7 +1,6 @@
-
-
 class Product {
   final int id;
+  final double rating;
   final String title;
   final String description;
   final List<String> images;
@@ -14,5 +13,6 @@ class Product {
     required this.title,
     required this.price,
     required this.description,
+    required this.rating,
   });
 }

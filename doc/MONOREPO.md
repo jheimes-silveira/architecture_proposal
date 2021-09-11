@@ -32,7 +32,7 @@ micro_commons
 ```
 
 #### Base App
-O base app que é o ponto de entrada da aplicação, ele irá conversar somente com o CORE que acessará os módulos.
+O base app que é o ponto de entrada da aplicação, ele irá conversar somente com o CORE e commons, que acessará os módulos.
 
 IMPORTANTE: Ele é o único projeto que irá ser criado com o template padrão do flutter 
 
@@ -42,6 +42,14 @@ obs: substitua o nome meu_projeto pelo nome do seu projeto
 ```
 
 No Base App podemos definir as validações antes de executar o app, onde podemos executar nossos scripts, validar versão do app e definir os flavors do projeto
+
+#### Flavors
+
+  * [flutter_flavorizr](https://pub.dev/packages/flutter_flavorizr)
+
+
+se você precisar criar um novo sabor, basta seguir as etapas [here](https://pub.dev/packages/flutter_flavorizr)
+
 
 #### Micro Core
 
@@ -80,6 +88,39 @@ Os demais modulos necessitam ser criados com a flag –template=package
 ```cmd
 flutter create --template=package flut_micro_app_exemplo
 obs: substitua o nome exemplo pelo nome do seu novo modulo
+```
+
+##### Estrutura de pastas de um micro_app
+``` tex
+  |-- assets
+  |-- lib
+    |-- routers.dart
+    |-- flut_micro_app_home.dart
+    |-- [+] commands
+    |-- [+] app
+        |-- [+] home
+            |-- [+] data
+                |-- [+] datasources
+                |-- [+] repositories
+            |-- [+] domain
+                |-- [+] models
+                |-- [+] repositories
+                |-- [+] usecases
+            |-- [+] external
+                |-- [+] datasources
+            |-- [+] presentation
+                |-- [+] controllers
+                |-- [+] ui
+                    |-- [+] pages
+                    |-- [+] widgets
+  |-- test
+``` 
+### Para auxiliar na criação de toda a estrutura clean
+
+Foi desenvolvido a CLI [js_cli](https://pub.dev/packages/js_cli) que auxilia na criação da estrutura em clean, onde temos um templete base no projeto modelo, pois a estrutura acima pode ser criada apartir do comando 
+
+```txt
+    js_cli g layer complete /lib/app/home
 ```
 
 ### Recomendações

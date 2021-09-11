@@ -1,5 +1,6 @@
-import 'package:flut_micro_app_home/app/home/domain/models/product.dart';
 import 'package:flut_micro_app_home/app/home/presentation/ui/pages/home/components/product_card.dart';
+import 'package:flut_micro_app_home/routers.dart';
+import 'package:flut_micro_commons_shared/models/product.dart';
 import 'package:flutter/material.dart';
 import 'package:localization/localization.dart';
 
@@ -12,7 +13,7 @@ class PopularProducts extends StatelessWidget {
     Key? key,
     required this.products,
   }) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -36,8 +37,12 @@ class PopularProducts extends StatelessWidget {
               ...List.generate(
                 products.length,
                 (index) {
+                  final product = products[index];
                   return ProductCard(
-                    product: products[index],
+                    product: product,
+                    onTap: () {
+                      Routers.goToProduct(product);
+                    },
                   );
                 },
               ),

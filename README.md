@@ -19,7 +19,6 @@ A arquitetura do projeto é dividia de forma modular subdividido em micro apps, 
 Cada modulo contem seu próprio ecossistema de arquitetura e a proposta adotada foi a do clean dart.
 Veja a documentação sobre CLEAN [aqui](./doc/CLEAN_ARCHITECTURE.md)
 
-
 ## Proposta estrutural
 Seguindo o conceito de monorepo, ou seja, cada projeto ficara em um repositorio diferente, assim facilitando a manutenção por modulos separados.
 
