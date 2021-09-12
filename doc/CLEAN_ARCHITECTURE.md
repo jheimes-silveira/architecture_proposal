@@ -54,7 +54,7 @@ Dado as descrições iremos apresentar a proposta de Arquitetura Limpa da Flutte
 
 # Clean Dart
 
-![Image 1](img/fluxo_padrao_clean.png)
+![Image 1](img/fluxo_padrao_clean_2.png)
 
 Usando o Flutter como exemplo teremos então quatro camadas mantendo a “Arquitetura de Plugin”, com foco principal no Domínio da Aplicação, camada esta que hospeda as 2 Regras de Negócio principais, estamos falando das **Entidades** e dos **Casos de Uso**.
 

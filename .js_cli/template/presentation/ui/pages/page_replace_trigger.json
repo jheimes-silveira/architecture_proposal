@@ -10,7 +10,7 @@
         "to": "//Pages\n\t\tChildRoute(\n\t\t\t'/{{name.paramCase}}',\n\t\t\tchild: (_, args) => {{pageNameClass}}(),\n\t\t),"
     },
     {
-        "pathFile": "lib\\app\\core\\utils\\routers.dart",
+        "pathFile": "{{path}}\\{{module}}_routers.dart",
         "from": "//{{module.titleCase}}",
         "to": "//{{module.titleCase}}\n\tstatic goTo{{name.pascalCase}}() {\n\t\treturn Modular.to.pushNamed('/{{module}}/{{name.paramCase}}');\n\t}"
     }

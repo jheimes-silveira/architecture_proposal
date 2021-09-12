@@ -1,5 +1,5 @@
 import 'package:flut_micro_app_home/app/home/presentation/ui/pages/home/components/product_card.dart';
-import 'package:flut_micro_app_home/routers.dart';
+import 'package:flut_micro_app_home/app/home/routers.dart';
 import 'package:flut_micro_commons_shared/models/product.dart';
 import 'package:flutter/material.dart';
 import 'package:localization/localization.dart';

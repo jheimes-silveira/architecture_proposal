@@ -1,7 +1,7 @@
 # Mobile Micro frontends
 
 #### ESTRUTURA DE PROJETO
-![Multirepo](img/fluxo_multirepo_2.png)
+![Multirepo](img/fluxo_multirepo_3.png)
 
 Na proposta da estrutura do projeto há uma quebra de funcionalidade (módulos) por package. E na imagem acima conseguimos também ver a dependência entre os projetos.
 Vamos falar se cada um desses quadradinhos posteriormente.
