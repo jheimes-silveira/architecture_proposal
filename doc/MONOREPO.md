@@ -94,11 +94,11 @@ obs: substitua o nome exemplo pelo nome do seu novo modulo
 ``` tex
   |-- assets
   |-- lib
-    |-- routers.dart
     |-- flut_micro_app_home.dart
     |-- [+] commands
     |-- [+] app
         |-- [+] home
+            |-- home_routers.dart
             |-- [+] data
                 |-- [+] datasources
                 |-- [+] repositories
@@ -120,7 +120,7 @@ obs: substitua o nome exemplo pelo nome do seu novo modulo
 Foi desenvolvido a CLI [js_cli](https://pub.dev/packages/js_cli) que auxilia na criação da estrutura em clean, onde temos um templete base no projeto modelo, pois a estrutura acima pode ser criada apartir do comando 
 
 ```txt
-    js_cli g layer complete /lib/app/home
+    js_cli g layer complete flut_micro_app_home/lib/app/home
 ```
 
 ### Recomendações
