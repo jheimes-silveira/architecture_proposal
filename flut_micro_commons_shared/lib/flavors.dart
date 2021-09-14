@@ -5,44 +5,49 @@ enum Flavor {
 }
 
 class F {
-  static Flavor appFlavor = Flavor.PRD;
+  static late Flavor _appFlavor;
+  static late String _title;
+  static late String _name;
+  static late String _url;
+  static late int _receiveTimeout;
+  static late int _connectTimeout;
+
+  F({
+    required Flavor appFlavor,
+    required String title,
+    required String name,
+    required String url,
+    required int receiveTimeout,
+    required int connectTimeout,
+  }) {
+    _appFlavor = appFlavor;
+    _title = title;
+    _name = name;
+    _url = url;
+    _receiveTimeout = receiveTimeout;
+    _connectTimeout = connectTimeout;
+  }
+  static Flavor get appFlavor {
+    return _appFlavor;
+  }
 
   static String get title {
-    switch (appFlavor) {
-      case Flavor.DEV:
-        return 'Duck Drinks Dev';
-      case Flavor.QA:
-        return 'Duck Drinks QA';
-      case Flavor.PRD:
-        return 'Duck Drinks';
-      default:
-        return 'title';
-    }
+    return _title;
   }
 
   static String get name {
-    switch (appFlavor) {
-      case Flavor.DEV:
-        return 'DEV';
-      case Flavor.QA:
-        return 'QA';
-      case Flavor.PRD:
-        return 'PRD';
-      default:
-        return '';
-    }
+    return _name;
   }
 
   static String get url {
-    switch (appFlavor) {
-      case Flavor.DEV:
-        return '';
-      case Flavor.QA:
-        return '';
-      case Flavor.PRD:
-        return '';
-      default:
-        return '';
-    }
+    return _url;
+  }
+
+  static int get receiveTimeout {
+    return _receiveTimeout;
+  }
+
+  static int get connectTimeout {
+    return _connectTimeout;
   }
 }

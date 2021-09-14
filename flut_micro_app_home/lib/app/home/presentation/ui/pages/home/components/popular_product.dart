@@ -18,6 +18,7 @@ class PopularProducts extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        Text('home-teste-a'.i18n()),
         Padding(
           padding: EdgeInsets.only(
             right: 24,

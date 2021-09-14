@@ -5,9 +5,17 @@ import 'package:flutter/material.dart';
 import 'package:localization/localization.dart';
 
 void main() async {
-  F.appFlavor = Flavor.PRD;
   WidgetsFlutterBinding.ensureInitialized();
 
+  F(
+    appFlavor: Flavor.PRD,
+    title: 'Duck Drink PRD',
+    name: 'PRD',
+    url: 'https://qa.dominio.com.br',
+    receiveTimeout: 10 * 1000,
+    connectTimeout: 10 * 1000,
+  );
+  
   return runApp(
     LocalizationWidget(
       child: ModularApp(

@@ -5,8 +5,16 @@ import 'package:flutter/material.dart';
 import 'package:localization/localization.dart';
 
 void main() async {
-  F.appFlavor = Flavor.QA;
   WidgetsFlutterBinding.ensureInitialized();
+  
+  F(
+    appFlavor: Flavor.QA,
+    title: 'Duck Drink QA',
+    name: 'QA',
+    url: 'https://qa.dominio.com.br',
+    receiveTimeout: 10 * 1000,
+    connectTimeout: 10 * 1000,
+  );
 
   return runApp(
     LocalizationWidget(

@@ -1,0 +1,4 @@
+class CurrentUserEntity {
+  CurrentUserEntity();
+}
+  

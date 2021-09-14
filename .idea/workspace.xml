@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="Incluir novo modulo de produtos">
+    <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="Incluir geração de routers para facilitar geração de novo microapp">
+      <change beforePath="$PROJECT_DIR$/.idea/architecture_proposal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/architecture_proposal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.js_cli/template/layer/routers_new_file.template" beforeDir="false" afterPath="$PROJECT_DIR$/.js_cli/template/layer/routers_new_file.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-dev.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-dev.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-prd.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-prd.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-qa.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-qa.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/popular_product.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/popular_product.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flavors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flavors.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631324147553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Incluir geração de routers para facilitar geração de novo microapp">
+      <created>1631460194348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631460194348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +113,7 @@
     <MESSAGE value="incluir flavors" />
     <MESSAGE value="implementando serviço de buscar produtos populares" />
     <MESSAGE value="Incluir novo modulo de produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluir novo modulo de produtos" />
+    <MESSAGE value="Incluir geração de routers para facilitar geração de novo microapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluir geração de routers para facilitar geração de novo microapp" />
   </component>
 </project>

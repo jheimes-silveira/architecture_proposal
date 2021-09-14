@@ -12,5 +12,5 @@ class {{module.pascalCase}}Routers {
     Modular.to.pop();
   }
 
-  Routers._();
+  {{module.pascalCase}}Routers._();
 }
