@@ -52,5 +52,11 @@
             ],
             "program": "lib/main-qa.dart"
         },
+        {
+            "name": "show room",
+            "request": "launch",
+            "type": "dart",
+            "program": "flut_design_system_duck/exemple/lib/main.dart",
+        }
     ]
 }

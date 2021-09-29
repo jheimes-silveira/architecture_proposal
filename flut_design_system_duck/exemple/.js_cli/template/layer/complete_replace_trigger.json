@@ -1,0 +1,7 @@
+[
+    {
+        "pathFile": "lib\\app\\core\\utils\\routers.dart",
+        "from": "class Routers {",
+        "to": "class Routers {\n\t//{{module.titleCase}}\n\n"
+    }
+]

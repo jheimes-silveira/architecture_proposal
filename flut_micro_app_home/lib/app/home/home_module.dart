@@ -23,6 +23,9 @@ class HomeModule extends Module {
 
   @override
   final List<ModularRoute> routes = [
+    //Pages
     ChildRoute('/', child: (_, __) => HomePage()),
+    WildcardRoute(child: (context, args) => HomePage()),
+
   ];
 }

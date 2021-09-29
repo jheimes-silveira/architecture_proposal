@@ -11,7 +11,7 @@ void main() async {
     appFlavor: Flavor.DEV,
     title: 'Duck Drink DEV',
     name: 'DEV',
-    url: 'https://qa.dominio.com.br',
+    url: 'https://dev.dominio.com.br',
     receiveTimeout: 10 * 1000,
     connectTimeout: 10 * 1000,
   );

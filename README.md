@@ -16,7 +16,7 @@ A Versão do flutter que é utilizada neste projeto foi a 2.12.1
 # Apresentação geral da arquitetura 
 A arquitetura do projeto é dividia de forma modular subdividido em micro apps, onde tem o menor índice de acoplamento possível.
 
-Cada modulo contem seu próprio ecossistema de arquitetura e a proposta adotada foi a do clean dart.
+Cada módulo contem seu próprio ecossistema de arquitetura e a proposta adotada foi a do clean dart.
 Veja a documentação sobre CLEAN [aqui](./doc/CLEAN_ARCHITECTURE.md)
 
 ## Proposta estrutural
@@ -46,19 +46,37 @@ Antes de adicionar um recursos que não esteja na lista abaixo, observar os segu
 - Atualização para recursos mais novos do Flutter/Dart, ex. Null Safety
 
 # Boas práticas de desenvolvimento
-Para garantir que as boas práticas de desenvolvimento seguindo a [guia oficial do Dart](https://dart.dev/guides/language/effective-dart) utilizamos o package [Effective Dart](https://pub.dev/packages/effective_dart) 
-Isso ira gerar Avisos de linhas que não  condiz com as boas praticas do Flutter e com um [link](https://dart-lang.github.io/linter/lints/prefer_relative_imports.html) para a documentação oficial do Dart explicando como corrigi-lo
-
-![Warning com o problema de boa prática](doc/img/effective_dart_link.png)
-
-
-![Documentação oficial do Effective Dart](doc/img/effective_dart_solucao.png)
+Para garantir que as boas práticas de desenvolvimento seguindo a [guia oficial do Dart](https://dart.dev/guides/language/effective-dart) utilizamos o package [flutter_lints](https://pub.dev/packages/flutter_lints) 
+Isso ira gerar Avisos de linhas que não  condiz com as boas praticas do Flutter
 
 # Dicas
 
-Abaixo há alguns links de documentações e artigos que possam ser consultados
+Abaixo há alguns links de documentações, artigos e trilhar de estudos
 
 -  [Testes](https://medium.com/cristiano-cunha/testes-automatizados-dart-cf9df0e741ab)
 -  [White Label Apps](https://itnext.io/white-label-apps-in-flutter-613b2d0a80ce)
 -  [White Label in Flutter](https://medium.com/@ramiechaarani/how-to-make-a-white-label-app-in-flutter-6c3ea40fd7d5)
 -  [Modular](https://medium.com/flutterando/quais-os-problemas-que-o-flutter-modular-veio-resolver-deaed96b71b3)
+
+Trilha recomendada de estudos:
+
+##### Iniciando:
+Trila de estudos disponibilizadas pelo canal Flutterando, nivel iniciante mais detalhada 
+https://www.youtube.com/watch?v=9m3PvcQ18Hk&list=PLlBnICoI-g-cqwYgp3uBiphS4KC3daJ-R
+
+Trila de estudos disponibilizadas pelo canal Flutterando, com uma abordagem um pouco mais rápida
+https://www.youtube.com/watch?v=XeUiJJN0vsE&list=PLlBnICoI-g-d-J57QIz6Tx5xtUDGQdBFB 
+
+ou curso pago na udemy nivel iniciante para médio 
+https://www.udemy.com/course/curso-completo-flutter-app-android-ios/learn/lecture/11038094?start=15#overview
+
+##### Uso do flutter_modular:
+https://www.youtube.com/watch?v=cIO1im9sLb0&list=PLlBnICoI-g-cVJ2sfu65-HjDtQepbrvjS
+##### documentação flutter modular
+https://modular.flutterando.com.br/docs/flutter_modular/start/
+
+##### trilha de estudos: Clean Architecture
+https://www.youtube.com/watch?v=VacEeKvY2bg&list=PLlBnICoI-g-d-v_fWlkZX2HRgHHPnJx9s
+
+##### trilha de estudos: Conceitos mais avançados e entendimento de monolito, monorepo e multirepo
+https://www.youtube.com/watch?v=5rjQ5ooWDoY&list=PLRpTFz5_57cufduUDgiZZqA_k5Q7UV_50

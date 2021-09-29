@@ -11,7 +11,7 @@ void main() async {
     appFlavor: Flavor.PRD,
     title: 'Duck Drink PRD',
     name: 'PRD',
-    url: 'https://qa.dominio.com.br',
+    url: 'https://dominio.com.br',
     receiveTimeout: 10 * 1000,
     connectTimeout: 10 * 1000,
   );

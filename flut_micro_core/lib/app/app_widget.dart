@@ -1,4 +1,4 @@
-import 'package:flut_design_system_duck/theme.dart';
+import 'package:flut_design_system_duck/theme/theme.dart';
 import 'package:flut_micro_commons_shared/flavors.dart';
 import 'package:flut_micro_core/app/presentation/controllers/app_controller.dart';
 import 'package:flutter/material.dart';

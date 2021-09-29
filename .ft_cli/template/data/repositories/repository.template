@@ -1,0 +1,22 @@
+import 'package:flutter_modular/flutter_modular.dart';
+import '../../{{repositoryPathInterface}}/{{repositoryNameFileInterface.snakeCase}}.dart';
+import '../datasources/{{datasourceNameFileInterface.snakeCase}}.dart';
+
+final ${{repositoryNameClass.pascalCase}} = BindInject(
+  (i) => {{repositoryNameClass.pascalCase}}(i.get()),
+  isSingleton: true,
+  isLazy: true,
+);
+
+class {{repositoryNameClass.pascalCase}} implements {{repositoryNameClassInterface.pascalCase}} {
+  final {{datasourceNameClassInterface.pascalCase}} _{{datasourceNameClassInterface.camelCase}};
+
+  {{repositoryNameClass.pascalCase}}({{datasourceNameClassInterface.pascalCase}} {{datasourceNameClassInterface.camelCase}})
+      : _{{datasourceNameClassInterface.camelCase}} = {{datasourceNameClassInterface.camelCase}};
+
+  @override
+  Future<void> call() {
+    return _{{datasourceNameClassInterface.camelCase}}();
+  }
+}
+  

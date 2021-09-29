@@ -6,7 +6,7 @@ import 'package:localization/localization.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   F(
     appFlavor: Flavor.QA,
     title: 'Duck Drink QA',

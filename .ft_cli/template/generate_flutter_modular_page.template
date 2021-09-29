@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+
+import '{{controllerNameFile.snakeCase}}.dart';
+
+class {{pageNameClass.pascalCase}} extends StatefulWidget {
+
+  @override
+  _{{pageNameClass.pascalCase}}State createState() => _{{pageNameClass.pascalCase}}State();
+}
+
+class _{{pageNameClass.pascalCase}}State extends ModularState<{{pageNameClass.pascalCase}}, {{controllerNameClass.pascalCase}}> {
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      key: scaffoldKey,
+      appBar: AppBar(),
+      body: Container(),
+    );
+  }
+}
+          
+          

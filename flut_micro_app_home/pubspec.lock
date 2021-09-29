@@ -264,7 +264,7 @@ packages:
       name: flutter_modular
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.4.1+1"
+    version: "4.0.0"
   flutter_modular_annotations:
     dependency: transitive
     description:
@@ -272,13 +272,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.0.2"
-  flutter_modular_test:
-    dependency: "direct dev"
-    description:
-      name: flutter_modular_test
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.3"
   flutter_svg:
     dependency: transitive
     description:
@@ -431,6 +424,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
+  modular_core:
+    dependency: transitive
+    description:
+      name: modular_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+2"
+  modular_interfaces:
+    dependency: transitive
+    description:
+      name: modular_interfaces
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+1"
   nested:
     dependency: transitive
     description:

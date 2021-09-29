@@ -1,0 +1,12 @@
+[
+    {
+        "pathFile": "{{path}}\\{{module}}_module",
+        "pathTemplete": ".ft_cli/template/layer/complete_new_file_exemple.template",
+        "generate": true
+    },
+    {
+        "pathFile": "{{path}}\\{{module}}_routers",
+        "pathTemplete": ".ft_cli/template/layer/routers_new_file.template",
+        "generate": true
+    }
+]

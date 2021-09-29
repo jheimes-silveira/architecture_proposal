@@ -1,0 +1,22 @@
+import 'package:mobx/mobx.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+
+part '{{controllerNameFile.snakeCase}}.g.dart';
+
+final ${{controllerNameClass.pascalCase}} = BindInject(
+  (i) => {{controllerNameClass.pascalCase}}(),
+  isSingleton: true,
+  isLazy: true,
+);
+
+class {{controllerNameClass.pascalCase}} = _{{controllerNameClass.pascalCase}}Base with _${{controllerNameClass.pascalCase}};
+
+abstract class _{{controllerNameClass.pascalCase}}Base with Store {
+  @observable
+  bool loading = false;
+
+  @action
+  void setLoading(bool value) {
+    loading = value;
+  }
+}

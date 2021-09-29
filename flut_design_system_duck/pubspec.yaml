@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  cached_network_image: ^3.1.0
+  flutter_spinkit: ^5.1.0
+  unicons: ^2.0.1
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
