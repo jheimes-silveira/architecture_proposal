@@ -6,6 +6,7 @@ import 'presentation/controllers/app_controller.dart';
 import 'presentation/ui/pages/splash/splash_controller.dart';
 import 'presentation/ui/pages/splash/splash_page.dart';
 
+
 class AppModule extends Module {
   @override
   final List<Bind> binds = [

@@ -8,3 +8,4 @@ export 'package:flutter_svg/svg.dart';
 export 'package:unicons/unicons.dart';
 export 'package:localization/localization.dart';
 export 'package:flutter_mobx/flutter_mobx.dart';
+export 'package:package_info_plus/package_info_plus.dart';

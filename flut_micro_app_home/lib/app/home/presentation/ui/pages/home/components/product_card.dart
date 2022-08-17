@@ -1,4 +1,4 @@
-import 'package:flut_micro_commons_shared/models/product.dart';
+import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
 import 'package:flutter/material.dart';
 
 class ProductCard extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flut_micro_app_home/app/home/data/datasources/popular_products_datasource.dart';
-import 'package:flut_micro_commons_shared/models/product.dart';
+import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import '../../domain/repositories/popular_products_repository.dart';

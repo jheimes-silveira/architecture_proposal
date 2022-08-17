@@ -12,6 +12,19 @@ final $AppController = BindInject(
 class AppController = _AppControllerBase with _$AppController;
 
 abstract class _AppControllerBase with Store {
+  @observable
+  String? versionName;
+
+  @observable
+  String? buildNumber;
+
+  @action
+  Future<void> initPackageInfo() async {
+    final info = await PackageInfo.fromPlatform();
+    versionName = info.version;
+    buildNumber = info.buildNumber;
+  }
+
   Future loadLangs() async {
     Localization.setTranslationDirectories([
       'packages/flut_micro_app_home/assets/lang',

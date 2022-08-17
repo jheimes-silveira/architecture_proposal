@@ -11,7 +11,7 @@ Outro aspecto importante, o conteúdo deste guia não será estático, ou seja, 
 Para tal basta editar este documento e submeter um  _pull request_  com alteração ou abrir uma  _issue_ neste repositório.
 
 # Versão flutter
-A Versão do flutter que é utilizada neste projeto foi a 2.12.1
+A Versão do flutter que é utilizada neste projeto foi a 2.5.1
 
 # Apresentação geral da arquitetura 
 A arquitetura do projeto é dividia de forma modular subdividido em micro apps, onde tem o menor índice de acoplamento possível.

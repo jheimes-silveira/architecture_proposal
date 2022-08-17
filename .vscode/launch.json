@@ -22,9 +22,9 @@
                 "--flavor",
                 "prd",
                 "-t",
-                "lib/main-prd.dart"
+                "lib/main_prd.dart"
             ],
-            "program": "lib/main-prd.dart"
+            "program": "lib/main_prd.dart"
         },
         {
             "name": "Duck Drinks flavor dev",
@@ -35,9 +35,9 @@
                 "--flavor",
                 "dev",
                 "-t",
-                "lib/main-dev.dart"
+                "lib/main_dev.dart"
             ],
-            "program": "lib/main-dev.dart"
+            "program": "lib/main_dev.dart"
         },
         {
             "name": "Duck Drinks flavor qa",
@@ -48,9 +48,9 @@
                 "--flavor",
                 "qa",
                 "-t",
-                "lib/main-qa.dart"
+                "lib/main_qa.dart"
             ],
-            "program": "lib/main-qa.dart"
+            "program": "lib/main_qa.dart"
         },
         {
             "name": "show room",

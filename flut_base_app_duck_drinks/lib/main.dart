@@ -1,9 +1,8 @@
-
-
-
 import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
-import 'package:flut_micro_core/flut_micro_core.dart';
 import 'package:flutter/material.dart';
+
+import 'app/app_module.dart';
+import 'app/app_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -12,9 +11,7 @@ void main() async {
     LocalizationWidget(
       child: ModularApp(
         module: AppModule(),
-        child: AppWidget(
-          initialRoute: '/',
-        ),
+        child: AppWidget(),
       ),
     ),
   );

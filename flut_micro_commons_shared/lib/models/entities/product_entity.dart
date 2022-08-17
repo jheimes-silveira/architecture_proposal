@@ -1,8 +1,14 @@
+import 'package:floor/floor.dart';
+
+@entity
 class Product {
+  @primaryKey
   final int id;
   final double rating;
   final String title;
   final String description;
+  
+  @ignore
   final List<String> images;
 
   final double price;

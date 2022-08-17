@@ -3,26 +3,39 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/build" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/build" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks/build" />
       <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dependencies/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dependencies/build" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/build" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/build" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/build" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dependencies/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dependencies/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_product/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_product/build" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_product/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_auth/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_base_app_duck_drinks_with_flavors/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_shared/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_auth/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_auth/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_auth/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_core/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_http_client/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_http_client/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_http_client/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/exemple/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/exemple/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_design_system_duck/exemple/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

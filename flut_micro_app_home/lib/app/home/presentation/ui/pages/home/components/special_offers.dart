@@ -106,7 +106,7 @@ class SpecialOfferCard extends StatelessWidget {
                         ),
                         TextSpan(
                           text: 'home-specialOffers-brands'
-                              .i18n([numOfBrands.toString()]),
+                              .i18n(args: [numOfBrands.toString()]),
                         )
                       ],
                     ),

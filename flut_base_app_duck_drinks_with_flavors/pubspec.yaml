@@ -6,24 +6,36 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.15.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flut_micro_core:
-    path: '../flut_micro_core'
+  flut_micro_app_home:
+    path: '../flut_micro_app_home'
+  flut_micro_app_product:
+    path: '../flut_micro_app_product'
+
+dependency_overrides:
   flut_micro_commons_dependencies:
     path: '../flut_micro_commons_dependencies'
   flut_micro_commons_shared:
     path: '../flut_micro_commons_shared'
-
+    
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_flavorizr: ^2.0.0
+  flutter_flavorizr: ^2.1.0
+  mobx_codegen: ^2.0.4
+  modular_test: ^2.0.0
+  modular_codegen: ^3.0.3
+  build_runner: ^2.1.5
+  flutter_launcher_icons: ^0.9.2
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - packages/flut_micro_app_home/assets/lang/
 
 flavorizr:
   app:
