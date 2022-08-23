@@ -36,6 +36,9 @@
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/build" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flut_micro_app_home/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dev_dependencies/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dev_dependencies/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flut_micro_commons_dev_dependencies/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -11,6 +11,10 @@ dependencies:
     path: '../flut_micro_app_home'
   flut_micro_app_product:
     path: '../flut_micro_app_product'
+  mobx_codegen: ^2.0.4
+  modular_test: ^2.0.0
+  modular_codegen: ^3.0.3
+  build_runner: ^2.1.5
   flutter:
     sdk: flutter
 dependency_overrides:
@@ -23,7 +27,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mobx_codegen: ^2.0.4
-  modular_test: ^1.0.1+1
+  modular_test: ^2.0.0
   modular_codegen: ^3.0.3
   build_runner: ^2.1.5
 

@@ -22,7 +22,7 @@
     {
         "pathFile": "{{projectNameComplete}}\\pubspec.yaml",
         "from": "dev_dependencies:",
-        "to": "dev_dependencies:\n  modular_test: ^1.0.1+1"
+        "to": "dev_dependencies:\n  modular_test: ^2.0.0"
     },
     {
         "pathFile": "{{projectNameComplete}}\\pubspec.yaml",

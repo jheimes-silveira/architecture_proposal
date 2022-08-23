@@ -1,39 +1,67 @@
 #  PADRÕES E BOAS PRÁTICAS - FLUTTER
 
-# Introdução
+## Introdução
 
-O objetivo deste documento é definir e apresentar os padrões e melhores práticas do time de Flutter. O objetivo é que este documento seja usado como guia para o desenvolvimento de projetos, estabelecendo de forma comum a todo time as práticas, metodologias, arquiteturas, padrões, frameworks etc. que podem/devem ser usados.
+O objetivo é que este documento seja usado como guia para o desenvolvimento de projetos, estabelecendo de forma comum a todo time as práticas, metodologias, arquiteturas, padrões, frameworks etc. que podem/devem ser usados.
 
-Este ponto é importante, pois uma vez que estabelecido um "Potocolo" entre todo o time, pontos como controle de qualidade, alinhamento técnico do time, manutenibilidade, etc. são favorecidos, por isso é de extrema importância contar com a colaboração de todos para que o que aqui estabelecido seja seguido.
+Este ponto é importante, pois uma vez que estabelecido um "Protocolo" entre todo o time, pontos como controle de qualidade, alinhamento técnico do time, manutenibilidade, etc.
 
 Outro aspecto importante, o conteúdo deste guia não será estático, ou seja, podendo ser alterado a medida que novas tecnologias e necessidades surgirem, por isso o time está sempre aberto a escutar propostas e melhorias que possam ser agregadas a este documento.
 
 Para tal basta editar este documento e submeter um  _pull request_  com alteração ou abrir uma  _issue_ neste repositório.
 
-# Versão flutter
-A Versão do flutter que é utilizada neste projeto foi a 2.5.1
+## Versão flutter
+A Versão do flutter que é utilizada neste projeto foi a 3.0.5
 
-# Apresentação geral da arquitetura 
+## Proposta estrutural
+Seguindo o conceito de monorepo, ou seja, cada projeto ficara em um repositorio diferente, assim facilitando a manutenção por modulos separados, o conceito de Micro Apps.
+
+O projeto está organizado na seguinte estrutura:
+
+- **base_app:** Responsável por rodar a aplicação. Único que conhece todos os Micro Apps da aplicação.
+- **dependencies:** Mantém centralizadas todas as dependências dos Micro Apps.
+
+- **micro_app:** Devem ser seguidas algumas regras desse tipo de package:
+    1. Um Micro App **nunca** deve referenciar outro Micro App (Se a lógica for compartilhada, deve ser criado um micro_commons)
+    2. Seguir em todos os Micro Apps a mesma arquitetura e estrutura de pastas, inclusive nos testes
+    3. Não adicionar dependências externas nesses packages (Sempre adicionar no package dependencies)
+- **micro_commons:**
+    1. Um Micro Commons pode referenciar outro Micro Commons, porem sempre tentando evitar o acoplamento ao maximo para cada micro commons ter facil reuso em novos projetos. 
+    2. Seguir em todos os Micro Apps a mesma arquitetura e estrutura de pastas, inclusive nos testes
+    3. Não adicionar dependências externas nesses packages (Sempre adicionar no package dependencies)
+
+ - [MONOREPO](./doc/MONOREPO.md)
+
+## Apresentação geral da arquitetura 
 A arquitetura do projeto é dividia de forma modular subdividido em micro apps, onde tem o menor índice de acoplamento possível.
 
 Cada módulo contem seu próprio ecossistema de arquitetura e a proposta adotada foi a do clean dart.
 Veja a documentação sobre CLEAN [aqui](./doc/CLEAN_ARCHITECTURE.md)
 
-## Proposta estrutural
-Seguindo o conceito de monorepo, ou seja, cada projeto ficara em um repositorio diferente, assim facilitando a manutenção por modulos separados.
 
- - [MONOREPO](./doc/MONOREPO.md)
+## Executando o projeto
 
-# Pull Requests
+Para executar, levar em consideração os flavors `dev`, `qa` e `prd`.  
+
+Cada flavor possui um arquivo de configurações dentro da pasta `base_app/.env_<flavor>`.  
+
+Executar sempre da seguinte maneira:  
+
+```bash
+cd base_app
+flutter run -t lib/main_<flavor>.dart --flavor <flavor> 
+```
+
+## Pull Requests
 Veja a documentação sobre Pull Request [aqui](./doc/PULL_REQUESTS.md)
 
-# Git Flow
+## Git Flow
 Veja a documentação sobre Git Flow [aqui](./doc/GIT_FLOW.md)
 
-# Testes
+## Testes
 Veja a documentação sobre Testes [aqui](./doc/TESTES.md)
 
-## Recursos de terceiros
+### Recursos de terceiros
 
 É importante que o time esteja alinhado sobre quais recursos de terceiros (libraries, frameworks, SDK's) podem ser utilizadas nos projetos do time de flutter, uma vez que essas dependências podem ter um impacto significativo no desenvolvimento e manutenção de um projeto (depreciação, bugs em aberto, incompatibilidades etc.). 
 

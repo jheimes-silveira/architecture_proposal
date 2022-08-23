@@ -5,66 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e4e985-f14b-45ab-ac96-fbda2f6f7abf" name="Default Changelist" comment="incluir exemplo de show room">
-      <change afterPath="$PROJECT_DIR$/flut_micro_commons_http_client/lib/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ft_cli/configs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.ft_cli/configs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ft_cli/microfrontend/micro_commons/micro_commons_replace_trigger.json" beforeDir="false" afterPath="$PROJECT_DIR$/.ft_cli/microfrontend/micro_commons/micro_commons_replace_trigger.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/architecture_proposal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/architecture_proposal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/lib/app/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/lib/app/app_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/ios/Flutter/devDebug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/ios/Flutter/devDebug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-dev.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-prd.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main-qa.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/app/app_module.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/app/app_module.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/app/app_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/app/app_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/app/presentation/controllers/app_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/app/presentation/controllers/app_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main_dev.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main_dev.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main_prd.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main_prd.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main_qa.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/lib/main_qa.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_base_app_duck_drinks_with_flavors/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_design_system_duck/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_design_system_duck/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_design_system_duck/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_design_system_duck/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/data/datasources/popular_products_datasource.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/data/datasources/popular_products_datasource.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/data/repositories/popular_products_imp_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/data/repositories/popular_products_imp_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/domain/repositories/popular_products_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/domain/repositories/popular_products_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/domain/usecases/popular_products_imp_usecase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/domain/usecases/popular_products_imp_usecase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/domain/usecases/popular_products_usecase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/domain/usecases/popular_products_usecase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/external/datasources/popular_products_imp_datasource.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/external/datasources/popular_products_imp_datasource.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/components/product_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/components/product_card.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/popular_product.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/popular_product.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/product_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/product_card.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/special_offers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/components/special_offers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/presentation/ui/pages/home/home_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/routers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/lib/app/home/routers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_home/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_home/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_product/lib/app/product/presentation/ui/pages/product/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_product/lib/app/product/presentation/ui/pages/product/components/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_app_product/lib/app/product/presentation/ui/pages/product/product_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_product/lib/app/product/presentation/ui/pages/product/product_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_product/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_product/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_app_product/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_app_product/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_commons_dependencies/lib/flut_micro_commons_dependencies.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_dependencies/lib/flut_micro_commons_dependencies.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_commons_dependencies/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_dependencies/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_commons_dependencies/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_dependencies/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_http_client/lib/http_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_http_client/lib/http_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_http_client/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_http_client/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_http_client/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_http_client/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flavors.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flut_micro_commons_shared.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_shared/lib/flut_micro_commons_shared.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/lib/models/product.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_shared/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flut_micro_commons_shared/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flut_micro_commons_shared/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/assets/images/logo_splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/app_module.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/app_widget.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/presentation/controllers/app_controller.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/presentation/controllers/app_controller.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/presentation/ui/pages/splash/splash_controller.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/presentation/ui/pages/splash/splash_controller.g.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/app/presentation/ui/pages/splash/splash_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/lib/flut_micro_core.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flut_micro_core/test/flut_micro_core_test.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

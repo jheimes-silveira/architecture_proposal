@@ -1,19 +1,14 @@
 import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
-import 'package:flut_micro_commons_shared/flavors.dart';
+import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
 
 class HttpClient extends DioForNative {
-  static HttpClient? _instance;
+  final Environment environment;
 
-  static HttpClient? get instance {
-    _instance ??= HttpClient._();
-    return _instance;
-  }
-
-  HttpClient._() {
+  HttpClient._(this.environment) {
     options = BaseOptions(
-      baseUrl: F.url,
-      connectTimeout: F.connectTimeout,
-      receiveTimeout: F.receiveTimeout,
+      baseUrl: environment.baseUrl,
+      connectTimeout: 1000 * 15,
+      receiveTimeout: 1000 * 15,
     );
 
     options.headers["content-type"] = "application/json";
